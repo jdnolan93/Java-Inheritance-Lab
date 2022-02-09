@@ -25,7 +25,7 @@ public class Director extends Manager {
     public double getSalary(){
         return salary;
     }
-    
+
     public void payBonus(){
         this.salary *= 1.02;
     }

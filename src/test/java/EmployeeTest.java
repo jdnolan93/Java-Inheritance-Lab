@@ -39,4 +39,16 @@ public class EmployeeTest {
         employee.payBonus();
         assertEquals(35350.00, employee.getSalary(), 0.00);
     }
+
+    @Test
+    public void canChangeName(){
+        employee.setName("John");
+        assertEquals("John", employee.getName());
+    }
+
+    @Test
+    public void cannotChangeName(){
+        employee.setName(null);
+        assertEquals("Greg", employee.getName());
+    }
 }
