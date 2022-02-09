@@ -1,6 +1,5 @@
-package Staff.Management;
-import Staff.Employee;
-
+package Person.Staff.Management;
+import Person.Staff.Employee;
 
 public class Manager extends Employee {
     private String deptName;

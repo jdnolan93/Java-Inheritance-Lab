@@ -1,4 +1,4 @@
-import Staff.Employee;
+import Person.Staff.Employee;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

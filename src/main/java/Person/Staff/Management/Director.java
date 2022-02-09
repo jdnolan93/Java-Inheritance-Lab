@@ -1,6 +1,6 @@
-package Staff.Management;
+package Person.Staff.Management;
 
-public class Director extends Manager {
+public class Director extends Person.Staff.Management.Manager {
     private double budget;
     private double salary;
 

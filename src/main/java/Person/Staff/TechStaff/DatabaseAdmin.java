@@ -1,6 +1,5 @@
-package Staff.TechStaff;
-
-import Staff.Employee;
+package Person.Staff.TechStaff;
+import Person.Staff.Employee;
 
 public class DatabaseAdmin extends Employee {
 
