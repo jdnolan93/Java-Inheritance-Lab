@@ -1,41 +1,20 @@
 package Person.Staff;
 
-public abstract class Employee {
-    private String name;
+public abstract class Employee extends Person.Person {
     private double salary;
-    private int niNumber;
 
     public Employee(String name, double salary, int niNumber){
-        this.name = name;
+        super(name, niNumber);
         this.salary = salary;
-        this.niNumber = niNumber;
     }
 
-
-    public String getName() {
-        return name;
-    }
 
     public double getSalary() {
         return salary;
     }
 
-    public int getNiNumber() {
-        return niNumber;
-    }
-
-    public void setName(String name) {
-        if (name != null){
-            this.name = name;
-        }
-    }
-
     public void setSalary(double salary) {
         this.salary = salary;
-    }
-
-    public void setNiNumber(int niNumber) {
-        this.niNumber = niNumber;
     }
 
     public void raiseSalary(double amount) {
