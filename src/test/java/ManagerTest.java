@@ -29,6 +29,11 @@ public class ManagerTest {
     }
 
     @Test
+    public void hasDeptName(){
+        assertEquals("Accounting", manager.getDeptName());
+    }
+
+    @Test
     public void canRaiseSalary(){
         manager.raiseSalary(2000);
         assertEquals(102000.00, manager.getSalary(), 0.00);

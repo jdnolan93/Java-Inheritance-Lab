@@ -37,9 +37,10 @@ public abstract class Employee {
     }
 
     public void raiseSalary(double amount) {
-        this.salary += amount;
+        if (amount >= 0) {
+            this.salary += amount;
+        }
     }
-
     public void payBonus(){
         this.salary *= 1.01;
     }
